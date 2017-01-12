@@ -1,3 +1,9 @@
+/* Color choices */
+/* blue #01BEF5 */
+/* blue on focus/hover #34CFFE; */
+
+
+/* Old green #66d6c5*/
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -11,7 +17,7 @@ body {
 strong { font-weight: 500; }
 
 a, a:hover, a:focus {
-	color: #66d6c5;
+	color: #01BEF5;
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
@@ -40,10 +46,10 @@ img { max-width: 100%; }
 	line-height: 32px;
 }
 
-.colored-text { color: #66d6c5; }
+.colored-text { color: #01BEF5; }
 
-::-moz-selection { background: #66d6c5; color: #fff; text-shadow: none; }
-::selection { background: #66d6c5; color: #fff; text-shadow: none; }
+::-moz-selection { background: #01BEF5; color: #fff; text-shadow: none; }
+::selection { background: #01BEF5; color: #fff; text-shadow: none; }
 
 
 /***** Loader *****/
@@ -117,22 +123,22 @@ img { max-width: 100%; }
 	height: 50px;
 	margin: 0 5px;
 	padding: 16px 20px 0 20px;
-	background: #66d6c5;
+	background: #01BEF5;
 	font-size: 16px;
     font-weight: 300;
     line-height: 16px;
     color: #fff;
     -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
 }
-.btn-link-1:hover, .btn-link-1:focus, .btn-link-1:active { outline: 0; opacity: 0.6; color: #fff; }
+.btn-link-1:hover, .btn-link-1:focus, .btn-link-1:active { color: #fff; background-color: #34CFFE;}
 
 .btn-link-2 {
 	display: inline-block;
 	height: 50px;
 	margin: 0 5px;
 	padding: 16px 20px 0 20px;
-	background: #444;
-	background: rgba(0, 0, 0, 0.3);
+	/* Same color as text */
+	background: #555;
 	font-size: 16px;
     font-weight: 300;
     line-height: 16px;
@@ -140,7 +146,7 @@ img { max-width: 100%; }
     -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
 }
 .btn-link-2:hover, .btn-link-2:focus, 
-.btn-link-2:active, .btn-link-2:active:focus { outline: 0; opacity: 0.6; background: rgba(0, 0, 0, 0.3); color: #fff; }
+.btn-link-2:active, .btn-link-2:active:focus { background: #5e5e5e; color: #fff; }
 
 
 /***** Divider *****/
@@ -156,7 +162,7 @@ img { max-width: 100%; }
 
 .navbar {
 	margin-bottom: 0;
-	background: #444;
+	background: #01BEF5;
 	border: 0;
 	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 }
@@ -167,15 +173,23 @@ ul.navbar-nav {
 	color: #fff;
 }
 
+.navbar-inverse .navbar-toggle{
+	border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover{
+	background-color: #34CFFE;
+}
+.navbar-inverse .navbar-toggle:focus{
+	background-color: #34CFFE;
+}
+
 .navbar-inverse ul.navbar-nav li a { padding-top: 20px; padding-bottom: 20px; color: #fff; opacity: 0.8; }
 .navbar-inverse ul.navbar-nav li a:hover { color: #fff; opacity: 1; }
 .navbar-inverse ul.navbar-nav li a:focus { color: #fff; outline: 0; opacity: 1; }
 
-.navbar-brand {
-	width: 72px;
-	height: 60px;
-	background: url(../img/logo.png) left center no-repeat;
-	text-indent: -99999px;
+a.navbar-brand[href="index.html"] {
+	color: #fff;
+	padding: 22px;
 }
 
 .navbar-toggle {
@@ -226,7 +240,7 @@ ul.navbar-nav {
 }
 
 .features-box .features-box-icon:hover {
-	background: #66d6c5;
+	background: #01BEF5;
 }
 
 .features-box h3 {
@@ -264,7 +278,7 @@ ul.navbar-nav {
 	width: 60px;
 	height: 60px;
 	padding-top: 6px;
-	background: #66d6c5;
+	background: #01BEF5;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
     font-size: 32px;
     color: #555;
@@ -385,8 +399,8 @@ ul.navbar-nav {
     -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 }
 
-.testimonial-list .nav-tabs li a:hover { border: 0; background: #66d6c5; }
-.testimonial-list .nav-tabs li.active a { background: #66d6c5; }
+.testimonial-list .nav-tabs li a:hover { border: 0; background: #01BEF5; }
+.testimonial-list .nav-tabs li.active a { background: #01BEF5; }
 .testimonial-list .nav-tabs li.active a:focus { border: 0; }
 
 
@@ -424,7 +438,7 @@ ul.navbar-nav {
 }
 
 .about-us-box .about-us-social a { margin: 0 4px; color: #ddd; }
-.about-us-box .about-us-social a:hover, .about-us-box .about-us-social a:focus { color: #66d6c5; }
+.about-us-box .about-us-social a:hover, .about-us-box .about-us-social a:focus { color: #01BEF5; }
 
 
 /***** Footer *****/
@@ -453,7 +467,7 @@ footer {
     line-height: 40px;
     text-align: center;
 }
-.footer-social a:hover, .footer-social a:focus { background: #66d6c5; color: #555; }
+.footer-social a:hover, .footer-social a:focus { background: #01BEF5; color: #555; }
 
 .footer-social a i { vertical-align: middle; }
 

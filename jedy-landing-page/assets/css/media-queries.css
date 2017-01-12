@@ -28,9 +28,10 @@
 
 @media (max-width: 767px) {
 	
-	.navbar.navbar-no-bg { background: #444; }
+	.navbar.navbar-no-bg { background: #01BEF5; }
 	.navbar-brand { margin-left: 15px; }
 	.navbar-collapse { border: 0; }
+	.navbar-header{ border-bottom: 1px solid #fff; }
 	.navbar-inverse ul.navbar-nav li a { padding-top: 10px; padding-bottom: 10px; }
 	
 	.inner-bg { padding: 140px 0; }
