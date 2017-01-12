@@ -29,9 +29,9 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("assets/img/backgrounds/1.jpg");
-    $('.how-it-works-container').backstretch("assets/img/backgrounds/1.jpg");
-    $('.call-to-action-container').backstretch("assets/img/backgrounds/1.jpg");
+    $('.top-content').backstretch("assets/img/backgrounds/seattle_skyline.jpg");
+    $('.how-it-works-container').backstretch("assets/img/backgrounds/seattle_skyline.jpg");
+    $('.call-to-action-container').backstretch("assets/img/backgrounds/seattle_skyline.jpg");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
