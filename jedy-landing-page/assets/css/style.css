@@ -223,11 +223,11 @@ a.navbar-brand[href="index.html"] {
 
 /***** Features *****/
 
-.features-box {
+.skills-box {
 	padding-top: 30px;
 }
 
-.features-box .features-box-icon {
+.skills-box .skills-box-icon {
 	width: 120px;
 	height: 120px;
 	margin: 0 auto;
@@ -239,11 +239,11 @@ a.navbar-brand[href="index.html"] {
     -o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 }
 
-.features-box .features-box-icon:hover {
+.skills-box .skills-box-icon:hover {
 	background: #01BEF5;
 }
 
-.features-box h3 {
+.skills-box h3 {
 	margin-top: 15px;
 	padding: 10px 0;
 }
@@ -333,64 +333,64 @@ a.navbar-brand[href="index.html"] {
 }
 
 
-/***** How it works *****/
+/***** Portfolio *****/
 
-.how-it-works {
+.portfolio {
 	padding-bottom: 30px;
 }
 
-.how-it-works-box {
+.portfolio-box {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
 
-.how-it-works-box .how-it-works-box-icon {
+.portfolio-box .portfolio-box-icon {
     font-size: 74px;
     line-height: 80px;
 }
 
-.how-it-works-box h3 {
+.portfolio-box h3 {
 	margin-top: 15px;
 }
 
-.how-it-works-box p {
+.portfolio-box p {
 	opacity: 0.8;
 }
 
 
-/***** Testimonials *****/
+/***** interests *****/
 
-.testimonials-container {
+.interests-container {
 	padding-bottom: 70px;
 }
 
-.testimonial-list {
+.interests-list {
     margin-top: 30px;
     text-align: center;
 }
 
-.testimonial-list .testimonial-image img {
+.interests-list .interests-image img {
 	max-width: 160px;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
 
-.testimonial-list .testimonial-text {
+.interests-list .interests-text {
 	margin-top: 30px;
 }
 
-.testimonial-list .nav-tabs {
+.interests-list .nav-tabs {
 	margin-top: 30px;
     border: 0;
 }
 
-.testimonial-list .nav-tabs li {
+.interests-list .nav-tabs li {
 	float: none;
 	display: inline-block;
 	margin-left: 5px;
     margin-right: 5px;
 }
 
-.testimonial-list .nav-tabs li a {
+.interests-list .nav-tabs li a {
     width: 14px;
     height: 14px;
     padding: 0;
@@ -399,9 +399,9 @@ a.navbar-brand[href="index.html"] {
     -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 }
 
-.testimonial-list .nav-tabs li a:hover { border: 0; background: #01BEF5; }
-.testimonial-list .nav-tabs li.active a { background: #01BEF5; }
-.testimonial-list .nav-tabs li.active a:focus { border: 0; }
+.interests-list .nav-tabs li a:hover { border: 0; background: #01BEF5; }
+.interests-list .nav-tabs li.active a { background: #01BEF5; }
+.interests-list .nav-tabs li.active a:focus { border: 0; }
 
 
 /***** Call to action *****/
@@ -413,32 +413,32 @@ a.navbar-brand[href="index.html"] {
 
 /***** About us *****/
 
-.about-us-container {
+.contact-container {
 	padding-bottom: 65px;
 }
 
-.about-us-box {
+.contact-box {
 	padding-top: 30px;
 	padding-bottom: 15px;
 }
 
-.about-us-box .about-us-photo {
+.contact-box .contact-photo {
 	width: 160px;
 	margin: 0 auto;
 }
 
-.about-us-box .about-us-photo img {
+.contact-box .contact-photo img {
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
 
-.about-us-box .about-us-social {
+.contact-box .contact-social {
     margin-top: 5px;
     font-size: 32px;
     line-height: 36px;
 }
 
-.about-us-box .about-us-social a { margin: 0 4px; color: #ddd; }
-.about-us-box .about-us-social a:hover, .about-us-box .about-us-social a:focus { color: #01BEF5; }
+.contact-box .contact-social a { margin: 0 4px; color: #ddd; }
+.contact-box .contact-social a:hover, .contact-box .contact-social a:focus { color: #01BEF5; }
 
 
 /***** Footer *****/
