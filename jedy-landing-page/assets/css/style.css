@@ -417,6 +417,10 @@ a.navbar-brand[href="index.html"] {
 	padding-bottom: 65px;
 }
 
+.contact-container input{
+	border: 
+}
+
 .contact-box {
 	padding-top: 30px;
 	padding-bottom: 15px;
@@ -439,6 +443,12 @@ a.navbar-brand[href="index.html"] {
 
 .contact-box .contact-social a { margin: 0 4px; color: #ddd; }
 .contact-box .contact-social a:hover, .contact-box .contact-social a:focus { color: #01BEF5; }
+
+.contact-form-container{
+	background-color: #f8f8f8;
+	padding: 5%;
+	outline: 6px solid rgba(34, 34, 34, 0.08);
+}
 
 
 /***** Footer *****/
