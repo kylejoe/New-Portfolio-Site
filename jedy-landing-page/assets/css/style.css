@@ -249,31 +249,33 @@ a.navbar-brand[href="index.html"] {
 }
 
 
-/***** More features *****/
+/***** Skills *****/
 
-.more-features-container {
+.skills-container {
 	padding-bottom: 60px;
+	border-top: 1px dotted #ddd;
+	border-bottom: 1px dotted #ddd;
 }
 
-.more-features-box {
+.skills-features-box {
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
 
-.more-features-box-text {
+.skills-features-box-text {
 	margin-top: 40px;
 	padding-left: 30px;
 	overflow: hidden;
 	text-align: left;
 }
-.more-features-box-text:first-child { margin-top: 20px; }
+.skills-features-box-text:first-child { margin-top: 20px; }
 
-.more-features-box-text-left {
+.skills-features-box-text-left {
 	padding-left: 0;
 	padding-right: 30px;
 }
 
-.more-features-box-text-icon {
+.skills-features-box-text-icon {
 	float: left;
 	width: 60px;
 	height: 60px;
@@ -285,15 +287,15 @@ a.navbar-brand[href="index.html"] {
     line-height: 40px;
     text-align: center;
 }
-.more-features-box-text-icon i { vertical-align: middle; }
+.skills-features-box-text-icon i { vertical-align: middle; }
 
-.more-features-box-text h3 {
+.skills-features-box-text h3 {
 	float: right;
 	width: 86%;
 	margin-top: 0;
 }
 
-.more-features-box-text-description {
+.skills-features-box-text-description {
 	float: right;
 	width: 86%;
 }
