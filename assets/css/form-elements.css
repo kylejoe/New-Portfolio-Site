@@ -15,7 +15,7 @@
     box-shadow: none;
     -webkit-transition: none;
     -o-transition: none;
-    transition: all 1s;
+    transition: all 1.7s;
 }
 
 textarea, 

@@ -29,6 +29,11 @@ jQuery(document).ready(function() {
 	// Navbar scroll spy
 	$('.body').scrollspy({ target: '#navbar'});
 	
+	// Adds class for hamburger menu animation
+	$(".navbar-toggle").on("click", function () {
+		$(this).toggleClass("active");
+	});
+
     /*
         Background slideshow
     */
