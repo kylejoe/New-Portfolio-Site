@@ -33,7 +33,7 @@
 
     </head>
 
-    <body>
+    <body data-spy="scroll" data-offset="170" data-target="#navbar">
     
         <!-- Loader -->
     	<div class="loader">
@@ -53,8 +53,8 @@
 					<a class="navbar-brand" href="index.html">KYLE HALTERMAN</a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="top-navbar-1">
-					<ul class="nav navbar-nav navbar-right">
+				<div id="navbar" class="collapse navbar-collapse" id="top-navbar-1">
+					<ul class="nav navbar-nav navbar-right" role="tablist">
 						<li><a class="scroll-link" href="#top-content">About</a></li>
 						<li><a class="scroll-link" href="#skills">Skills</a></li>
 						<li><a class="scroll-link" href="#portfolio">Portfolio</a></li>
@@ -66,7 +66,7 @@
 		</nav>
 
         <!-- Top content -->
-        <div class="top-content">
+        <div id="top-content" class="top-content">
         	
             <div class="inner-bg">
                 <div class="container">
@@ -80,64 +80,15 @@
 	                            	JPMorgan Chase. 
                             	</p>
                             </div>
-                            <div class="top-big-link wow fadeInUp">
-                            	<a class="btn btn-link-1" href="http://azmind.com">Download it</a>
-                            	<a class="btn btn-link-2 scroll-link" href="#skills">Learn more</a>
-                            </div>
                         </div>
                     </div>
                     
                 </div>
             </div>
-            
         </div>
-        
-        <!-- Possibly remove -->
-        <!-- Skills -->
-<!--         <div class="skills-container section-container">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-sm-12 skills section-description wow fadeIn">
-	                    <h2><strong>Skills</strong></h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	                </div>
-	            </div>
-	            <div class="row">
-                	<div class="col-sm-4 skills-box wow fadeInUp">
-	                	<div class="skills-box-icon">
-	                		<i class="fa fa-cogs"></i>
-	                	</div>
-	                    <h3>Front-end stack</h3>
-	                    <p>I have experience with JavaScript, jQuery, CSS, HTML, LESS, Bootstap, and custom built frameworks.</p>
-                    </div>
-                    <div class="col-sm-4 skills-box wow fadeInDown">
-	                	<div class="skills-box-icon">
-	                		<i class="fa fa-columns"></i>
-	                	</div>
-	                    <h3>Responsive Design</h3>
-	                    <p>Built a variety of applications for devices of all sizes.</p>
-                    </div>
-                    <div class="col-sm-4 skills-box wow fadeInUp">
-	                	<div class="skills-box-icon">
-	                		<i class="fa fa-universal-access"></i>
-	                	</div>
-	                    <h3>Accessibility</h3>
-	                    <p>I have built web applications that are read by screen readers and the focus 
-	                    	state is controlled progrmatically for the best possible outcome.</p>
-                    </div>
-	            </div>
-	            <div class="row">
-	            	<div class="col-sm-12 section-bottom-button wow fadeInUp">
-                        <a class="btn btn-link-1 scroll-link" href="#more-features">Learn more</a>
-	            	</div>
-	            </div>
-	        </div>
-        </div> -->
 
-		<!-- More features -->
-		<!-- Possibly do something here?!?!? -->
-		<!-- New Skills -->
-        <div class="skills-container section-container">
+		<!-- Skills -->
+        <div id="skills" class="skills-container section-container">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-12 skills-features section-description wow fadeIn">
@@ -199,11 +150,11 @@
         </div>
 
         
-        <!-- Great support -->
-        <div class="great-support-container section-container section-container-gray-bg">
+        <!-- Portfolio -->
+        <div id="portfolio" class="portfolio-container section-container section-container-gray-bg">
 	        <div class="container">
 	            <div class="row">
-	                <div class="col-sm-12 great-support section-description wow fadeIn">
+	                <div class="col-sm-12 section-description wow fadeIn">
 	                    <h2>My <strong>Latest </strong>Works</h2>
 	                    <div class="divider-1 wow fadeInUp"><span></span></div>
 	                </div>
@@ -235,53 +186,12 @@
 	        </div>
         </div>
         
-        <!-- Portfolio -->
-        <div class="portfolio-container section-container section-container-image-bg">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-sm-12 portfolio section-description wow fadeIn">
-	                    <h2><strong>Portfolio</strong></h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	                </div>
-	            </div>
-	            <div class="row">
-                	<div class="col-sm-4 col-sm-offset-1 portfolio-box wow fadeInUp">
-	                	<div class="portfolio-box-icon">1</div>
-	                    <h3>Sign up</h3>
-	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 portfolio-box wow fadeInDown">
-	                	<div class="portfolio-box-icon">2</div>
-	                    <h3>Make payment</h3>
-	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 col-sm-offset-1 portfolio-box wow fadeInUp">
-	                	<div class="portfolio-box-icon">3</div>
-	                    <h3>Log in</h3>
-	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 portfolio-box wow fadeInDown">
-	                	<div class="portfolio-box-icon">4</div>
-	                    <h3>Start learning</h3>
-	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                    </div>
-	            </div>
-	            <div class="row">
-	            	<div class="col-sm-12 section-bottom-button wow fadeInUp">
-                        <a class="btn btn-link-1 scroll-link" href="#top-content">Sign up now</a>
-	            	</div>
-	            </div>
-	        </div>
-        </div>
-        
         <!-- Interests -->
-        <div class="interests-container section-container">
+        <div id="interests" class="interests-container section-container">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-12 interests section-description wow fadeIn">
-	                    <h2><strong>Interests</strong></h2>
+	                    <h2>Interests</h2>
 	                    <div class="divider-1 wow fadeInUp"><span></span></div>
 	                </div>
 	            </div>
@@ -364,36 +274,16 @@
 	        </div>
         </div>
         
-        <!-- Call to action -->
-        <div class="call-to-action-container section-container section-container-image-bg">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-sm-12 call-to-action section-description wow fadeInLeftBig">
-	                    <h2><strong>Call</strong> to action</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	                    <p>
-	                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut 
-	                    	aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud.
-	                    </p>
-	                </div>
-	            </div>
-	            <div class="row">
-	            	<div class="col-sm-12 section-bottom-button wow fadeInUp">
-                        <a class="btn btn-link-1 scroll-link" href="#top-content">Sign up now</a>
-	            	</div>
-	            </div>
-	        </div>
-        </div>
-        
         <!-- Contact -->
         <div class="contact-container section-container">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-12 contact section-description wow fadeIn">
-	                    <h2><strong>Contact</strong></h2>
+	                    <h2>Contact</h2>
 	                    <div class="divider-1 wow fadeInUp"><span></span></div>
 	                </div>
 	            </div>
+                <br>
 	            <div class="row">
 	                <div class="col-md-6 col-md-offset-3">
 	                	<div class="contact-form-container">
@@ -424,16 +314,11 @@
 	        	<div class="row">
                     <div class="col-sm-12 footer-social">
                     	<a href="#"><i class="fa fa-facebook"></i></a>
-                    	<a href="#"><i class="fa fa-linkedin"></i></a>
+                    	<a href="https://www.linkedin.com/in/kyle-halterman-76577463"><i class="fa fa-linkedin"></i></a>
                     	<a href="#"><i class="fa fa-instagram"></i></a>
-                    	<a href="#"><i class="fa fa-github"></i></a>
+                    	<a href="https://github.com/kylejoe"><i class="fa fa-github"></i></a>
                     </div>
 	            </div>
-	            <div class="row">
-                    <div class="col-sm-12 footer-copyright">
-                    	&copy; Jedy Bootstrap Template by <a href="http://azmind.com">Azmind</a>.
-                    </div>
-                </div>
 	        </div>
         </footer>
 

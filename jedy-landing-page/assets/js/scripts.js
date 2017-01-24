@@ -25,12 +25,15 @@ jQuery(document).ready(function() {
 	$('.top-content .text').waypoint(function() {
 		$('nav').toggleClass('navbar-no-bg');
 	});
+
+	// Navbar scroll spy
+	$('.body').scrollspy({ target: '#navbar'});
 	
     /*
         Background slideshow
     */
     $('.top-content').backstretch("assets/img/backgrounds/seattle_skyline.jpg");
-    $('.portfolio-container').backstretch("assets/img/backgrounds/seattle_skyline.jpg");
+    // $('.portfolio-container').backstretch("assets/img/backgrounds/seattle_skyline.jpg");
     $('.call-to-action-container').backstretch("assets/img/backgrounds/seattle_skyline.jpg");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){

@@ -12,6 +12,7 @@ body {
     color: #888;
     line-height: 30px;
     text-align: center;
+    position: relative;
 }
 
 strong { font-weight: 500; }
@@ -301,62 +302,37 @@ a.navbar-brand[href="index.html"] {
 }
 
 
-/***** Great support *****/
+/***** Portfolio *****/
 
-.great-support-container {
+.portfolio-container {
 	padding-bottom: 60px;
 }
 
-.great-support-box {
+.portfolio-box {
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
 
-.great-support-box-text {
+.portfolio-box-text {
 	margin-top: 40px;
 	padding-left: 30px;
 	overflow: hidden;
 	text-align: left;
 }
-.great-support-box-text:first-child { margin-top: 20px; }
+.portfolio-box-text:first-child { margin-top: 20px; }
 
-.great-support-box-text-left {
+.portfolio-box-text-left {
 	padding-left: 0;
 	padding-right: 30px;
 }
 
-.great-support-box-text h3 {
+.portfolio-box-text h3 {
 	margin-top: 0;
 }
 
-.great-support-box-text .medium-paragraph {
+.portfolio-box-text .medium-paragraph {
 	margin-top: 20px;
 	margin-bottom: 20px;
-}
-
-
-/***** Portfolio *****/
-
-.portfolio {
-	padding-bottom: 30px;
-}
-
-.portfolio-box {
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-.portfolio-box .portfolio-box-icon {
-    font-size: 74px;
-    line-height: 80px;
-}
-
-.portfolio-box h3 {
-	margin-top: 15px;
-}
-
-.portfolio-box p {
-	opacity: 0.8;
 }
 
 
@@ -417,6 +393,8 @@ a.navbar-brand[href="index.html"] {
 
 .contact-container {
 	padding-bottom: 65px;
+	border-top: 1px dotted #ddd;
+	background: url(../img/working.jpg) center center no-repeat;
 }
 
 .contact-container input{
