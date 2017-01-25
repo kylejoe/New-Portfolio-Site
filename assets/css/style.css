@@ -75,7 +75,7 @@ img { max-width: 100%; }
 	margin: -30px 0 0 -30px;
 	width: 60px;
 	height: 60px;
-	background: url(../img/loading.gif) center center no-repeat;
+	background: url(../img/ring-alt.gif) center center no-repeat;
 }
 
 
@@ -196,6 +196,23 @@ a.navbar-brand[href="index.html"] {
 .navbar-toggle {
 	margin-top: 13px;
 	margin-bottom: 13px;
+}
+
+/* Adds color to menu item with active class */
+
+.navbar-inverse .navbar-nav>.active>a{
+	background-color: transparent;
+	color: #555;
+	font-weight: bold;
+}
+.navbar-inverse .navbar-nav>.active>a:hover{
+	background-color: transparent;
+	color: #555;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-collapse{
+	border-color: #fff;
 }
 
 /***** Animation for hamburger menu icon *****/
@@ -484,7 +501,7 @@ footer {
     line-height: 40px;
     text-align: center;
 }
-.footer-social a:hover, .footer-social a:focus { background: #01BEF5; color: #555; }
+.footer-social a:hover, .footer-social a:focus { background: #01BEF5; color: #555; cursor: pointer;}
 
 .footer-social a i { vertical-align: middle; }
 
