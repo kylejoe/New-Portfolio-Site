@@ -34,6 +34,13 @@ jQuery(document).ready(function() {
 		$(this).toggleClass("active");
 	});
 
+	// Adds class to animate about text on page load
+	// $("#mybutton").click(function(){
+ //    $("#reasons").addClass("wow fadeInUp animated");
+ //    $("#reasons").attr("style","visibility: visible; animation-name: fadeInUp;");
+	// });
+
+
     /*
         Background slideshow
     */

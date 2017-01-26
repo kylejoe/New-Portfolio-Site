@@ -150,6 +150,28 @@ img { max-width: 100%; }
 .btn-link-2:active, .btn-link-2:active:focus { background: #5e5e5e; color: #fff; }
 
 
+/***** Image styling *****/
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   opacity: 1;
+}
+
+.image h3 { 
+   position: absolute; 
+   top: 117px; 
+   left: 0; 
+   width: 100%;
+   color: #fff;
+}
+
+.image:hover{
+	opacity: 0.5;
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
 /***** Divider *****/
 
 .divider-1 span {
@@ -198,7 +220,7 @@ a.navbar-brand[href="index.html"] {
 	margin-bottom: 13px;
 }
 
-/* Adds color to menu item with active class */
+/***** Adds color to menu item with active class *****/
 
 .navbar-inverse .navbar-nav>.active>a{
 	background-color: transparent;
