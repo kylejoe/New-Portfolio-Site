@@ -34,19 +34,10 @@ jQuery(document).ready(function() {
 		$(this).toggleClass("active");
 	});
 
-	// Adds class to animate about text on page load
-	// $("#mybutton").click(function(){
- //    $("#reasons").addClass("wow fadeInUp animated");
- //    $("#reasons").attr("style","visibility: visible; animation-name: fadeInUp;");
-	// });
-
-
     /*
         Background slideshow
     */
     $('.top-content').backstretch("assets/img/backgrounds/seattle_skyline.jpg");
-    // $('.portfolio-container').backstretch("assets/img/backgrounds/seattle_skyline.jpg");
-    $('.call-to-action-container').backstretch("assets/img/backgrounds/seattle_skyline.jpg");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
@@ -70,11 +61,6 @@ jQuery(window).load(function() {
 	*/
 	$(".loader-img").fadeOut();
 	$(".loader").delay(1000).fadeOut("slow");
-	
-	/*
-		Hidden images
-	*/
-	$(".testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
 	
 });
 

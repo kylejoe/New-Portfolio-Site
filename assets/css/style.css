@@ -151,26 +151,6 @@ img { max-width: 100%; }
 
 
 /***** Image styling *****/
-.image { 
-   position: relative; 
-   width: 100%; /* for IE 6 */
-   opacity: 1;
-}
-
-.image h3 { 
-   position: absolute; 
-   top: 117px; 
-   left: 0; 
-   width: 100%;
-   color: #fff;
-}
-
-.image:hover{
-	opacity: 0.5;
-	-webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-}
 
 /***** Divider *****/
 
