@@ -47,6 +47,11 @@ jQuery(document).ready(function() {
     });
     
     /*
+		Masonry
+    */
+    
+
+    /*
         Wow
     */
     new WOW().init();
