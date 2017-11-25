@@ -230,6 +230,10 @@ img { max-width: 100%; }
 .hover-state h6 {
   color: #ffffff;
 }
+.hover-state h4 a{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
 .hover-state p,
 .hover-state span,
 .hover-state li {
@@ -433,7 +437,7 @@ a.navbar-brand[href="index.html"] {
 	margin: 20px 0 10px 0;
 }
 
-.top-content .description p { opacity: 0.8; }
+.top-content .description p { font-weight: 400; }
 
 .top-content .top-big-link {
 	margin-top: 35px;
